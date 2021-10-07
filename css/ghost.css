@@ -1,0 +1,62 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+  
+.ghost {
+	border-radius: 100% 100% 0 0;
+	display: inline-block;
+	height: 36px;
+	margin: 2px;
+	position: relative;
+	width: 30px;
+}
+
+.eyes {
+	height: 12px;
+	left: 50%;
+	margin-left: -9px;
+	position: absolute;
+	width: 18px;
+	top: 12.5px;
+}
+
+.eye {
+	background: #fff;
+	border-radius: 100%;
+	border: 100%;
+	height: 15px;
+	width: 6px;
+}
+
+.iris {
+	background: blue;
+	border-radius: 100%;
+	height: 10px;
+	position: absolute;
+	width: 4px;
+	top: 2px;
+}
+
+.leftEye {
+	float: left;
+}
+.leftEye .iris {
+	left: 1.25px;
+}
+
+.rightEye {
+	float: right;
+}
+
+.rightEye .iris {
+	right: 1.25px;
+}
+
+.ghostTail {
+	bottom: -4px;
+	height: 4px;
+	position: absolute;
+	width: 30px;
+    Background-size: 1px 1px, 1px 1px;
+}

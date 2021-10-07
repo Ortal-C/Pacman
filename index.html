@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>🕹 P A C M A N 🕹</title>
+		<link rel="stylesheet" href="css/app.css" />
+		<link rel="stylesheet" href="css/ghost.css" />
+	</head>
+	<body onload="init()" onkeyup="movePacman(event)">
+		<div>
+			<div><img class="header" src="img/header.png" alt="Pacman logo"  height="140px" /></div>
+			<div>
+				<button class="btn score"”><h1>Score: <span>0</span></h1></button>
+				<button class="btn game-over hide" onclick="init()"><h1>PLAY AGAIN</h1></button>
+			</div>
+		</div>
+
+		<div class="board-container"></div>
+
+		<div><img class="img-victorious" src="img/victorious msg.JPG" alt="Pacman won message"></div>
+		<div><img class="img-game-over" src="img/game-over msg.JPG" alt="game over message"></div>
+		<footer>Ortal Cohen</footer>
+		<script src="js/utils.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/pacman.js"></script>
+		<script src="js/ghost.js"></script>
+	</body>
+</html>
